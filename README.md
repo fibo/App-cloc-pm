@@ -3,6 +3,8 @@ App-cloc-pm
 
 > Count Lines of Code
 
+CPAN package for [CLOC](http://cloc.sourceforge.net/) utility.
+
 To install, pray the mantra
 
     perl Makefile.PL

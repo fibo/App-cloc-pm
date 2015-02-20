@@ -8,6 +8,7 @@ WriteMakefile(
     VERSION_FROM     => 'lib/App/cloc.pm',
     AUTHOR           => 'G. Casati <fibo@cpan.org>',
     NAME             => 'App::cloc',
+    EXE_FILES        => ['bin/cloc'],
     LICENSE          => 'artistic_2',
     MIN_PERL_VERSION => '5.8.0',
     META_MERGE       => {
@@ -19,18 +20,21 @@ WriteMakefile(
         },
     },
     PREREQ_PM => {
-        'Test::Compile'        => '1.2.1',
-        'Test::More'           => '1.001009',
-        'Test::Pod'            => '1.48'
+        'Algorithm::Diff' => '0',
+        'Digest::MD5'     => '0',
+        'Regexp::Common'  => '0',
+        'Test::Compile'   => '1.2.1',
+        'Test::More'      => '1.001009',
+        'Test::Pod'       => '1.48'
     },
     BUILD_REQUIRES => {
         'ExtUtils::MakeMaker' => '6.64'
     },
     test          => { TESTS => 't/*.t' },
     TEST_REQUIRES => {
-        'Test::Compile'      => '1.2.1',
-        'Test::More'         => '1.001009',
-        'Test::Pod'          => '1.48'
+        'Test::Compile' => '1.2.1',
+        'Test::More'    => '1.001009',
+        'Test::Pod'     => '1.48'
     }
 );
 
