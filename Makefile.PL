@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker 6.64;
 WriteMakefile(
     ABSTRACT_FROM    => 'lib/App/cloc.pm',
     VERSION_FROM     => 'lib/App/cloc.pm',
-    AUTHOR           => ['G. Casati <fibo@cpan.org>', 'Al Danial <al.danial@gmail.com'],
+    AUTHOR           => ['G. Casati <fibo@cpan.org>', 'Al Danial <al.danial@gmail.com>'],
     NAME             => 'App::cloc',
     EXE_FILES        => ['bin/cloc'],
     LICENSE          => 'artistic_2',
