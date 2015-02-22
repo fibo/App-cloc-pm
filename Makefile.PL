@@ -6,23 +6,23 @@ use ExtUtils::MakeMaker 6.64;
 WriteMakefile(
     ABSTRACT_FROM    => 'lib/App/cloc.pm',
     VERSION_FROM     => 'lib/App/cloc.pm',
-    AUTHOR           => 'G. Casati <fibo@cpan.org>',
+    AUTHOR           => ['G. Casati <fibo@cpan.org>', 'Al Danial <al.danial@gmail.com'],
     NAME             => 'App::cloc',
     EXE_FILES        => ['bin/cloc'],
     LICENSE          => 'artistic_2',
     MIN_PERL_VERSION => '5.8.0',
     META_MERGE       => {
         resources => {
-            homepage   => 'https://metacpan.org/pod/App::cloc',
-            license    => 'http://g14n.info/artistic-license',
+            homepage   => 'http://cloc.sourceforge.net',
+            license    => 'http://cloc.sourceforge.net/#License',
             repository => 'https://github.com/fibo/App-cloc-pm',
             bugtracker => 'https://github.com/fibo/App-cloc-pm/issues'
         },
     },
     PREREQ_PM => {
-        'Algorithm::Diff' => '0',
-        'Digest::MD5'     => '0',
-        'Regexp::Common'  => '0',
+        'Algorithm::Diff' => '1.1903',
+        'Digest::MD5'     => '2.54',
+        'Regexp::Common'  => '201331301',
         'Test::Compile'   => '1.2.1',
         'Test::More'      => '1.001009',
         'Test::Pod'       => '1.48'
