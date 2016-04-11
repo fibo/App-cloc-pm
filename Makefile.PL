@@ -14,9 +14,9 @@ WriteMakefile(
     META_MERGE       => {
         resources => {
             homepage   => 'http://cloc.sourceforge.net',
-            license    => 'http://cloc.sourceforge.net/#License',
-            repository => 'https://github.com/fibo/App-cloc-pm',
-            bugtracker => 'https://github.com/fibo/App-cloc-pm/issues'
+            license    => 'https://github.com/AlDanial/cloc/blob/master/LICENSE',
+            repository => 'https://github.com/AlDanial/cloc',
+            bugtracker => 'https://github.com/AlDanial/cloc/issues'
         },
     },
     PREREQ_PM => {

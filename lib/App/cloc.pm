@@ -3,7 +3,7 @@
 #
 package App::cloc;
 
-our $VERSION = '0.2';
+our $VERSION = '1.67';
 
 1;
 
@@ -15,18 +15,18 @@ App::cloc - Count Lines of Code
 
 CPAN packaging of the famous L<CLOC|http://cloc.sourceforge.net/> utility, as agreed with its author Al Danial.
 
-Contains L<cloc> version C<1.62>.
-
 =head1 CREATION
 
-I just downloaded the L<tarball|http://sourceforge.net/projects/cloc/files/cloc/v1.62/cloc-1.62.tar.gz/download> and concatenated the cloc.pl and the cloc.pod.
-Other than that it is a common (almost empty ... yes I am lazy too :) CPAN package.
+In just downloaded latest code and pod from L<cloc repo|https://github.com/AlDanial/cloc>
+
+    wget https://raw.githubusercontent.com/AlDanial/cloc/master/Unix/cloc -O bin/cloc
+    wget https://raw.githubusercontent.com/AlDanial/cloc/master/Unix/cloc.1.pod -O - >> bin/cloc
 
 All credits go to Al Danial.
 
 =head1 LICENSE
 
-Refer to L<CLOC License|http://cloc.sourceforge.net/#License>
+Refer to L<CLOC License|https://github.com/AlDanial/cloc/blob/master/LICENSE>
 
 =cut
 
