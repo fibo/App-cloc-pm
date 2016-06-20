@@ -3,7 +3,7 @@
 #
 package App::cloc;
 
-our $VERSION = '1.67.1';
+our $VERSION = '1.68';
 
 1;
 
@@ -14,7 +14,7 @@ App::cloc - Count Lines of Code
 =head1 DESCRIPTION
 
 CPAN packaging of the famous L<CLOC|http://cloc.sourceforge.net/> utility, as agreed with its author Al Danial.
-Contains cloc C<v1.66>.
+Contains cloc C<v1.68>.
 
 =head1 CREATION
 
